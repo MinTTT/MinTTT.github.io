@@ -6,27 +6,18 @@
     <description>Recent content on Till The End</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Pan Morg Chu 2019</copyright>
-    <lastBuildDate>Thu, 26 Jul 2018 17:44:36 -0700</lastBuildDate>
     
 	<atom:link href="http://MinTTT.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>More filler content</title>
-      <link>http://MinTTT.github.io/blog/more/</link>
-      <pubDate>Thu, 26 Jul 2018 17:44:36 -0700</pubDate>
-      
-      <guid>http://MinTTT.github.io/blog/more/</guid>
-      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ex sit amet condimentum placerat, neque dolor facilisis purus, in elementum ex urna at ante. Praesent turpis leo, auctor at justo vel, dignissim imperdiet tellus. Vivamus nec orci luctus, pharetra mauris eget, tristique ligula. Integer elit lorem, blandit ut eros et, efficitur aliquet dui. Aenean sed orci lorem. Nulla facilisi. Cras sollicitudin odio eu erat sollicitudin, sit amet volutpat risus condimentum.</description>
-    </item>
-    
-    <item>
-      <title>This is a blog post</title>
+      <title>❤写在最前面❤ 
+ Preface</title>
       <link>http://MinTTT.github.io/blog/first/</link>
-      <pubDate>Tue, 24 Jul 2018 17:44:36 -0700</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://MinTTT.github.io/blog/first/</guid>
-      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ex sit amet condimentum placerat, neque dolor facilisis purus, in elementum ex urna at ante. Praesent turpis leo, auctor at justo vel, dignissim imperdiet tellus. Vivamus nec orci luctus, pharetra mauris eget, tristique ligula. Integer elit lorem, blandit ut eros et, efficitur aliquet dui. Aenean sed orci lorem. Nulla facilisi. Cras sollicitudin odio eu erat sollicitudin, sit amet volutpat risus condimentum.</description>
+      <description>❤写在最前面❤ 这是我们两个的blog, 写博客的事情其实在我脑海里已经回荡很久了. 本科时代, 遇到技术难题就会上网搜索一下, 经常会被一些技术大牛精美的博客惊艳到, 很是羡慕. 后来组建了iGEM队伍参加了几届, 收获很多, 其中之一就是建立一个wiki去展示队伍的项目, 怎么说我们也算是写过网页的人了. 后来忙毕业, 升学, 入学, 考试, 实验&amp;hellip;.. 一直没有时间去建立一个属于我们自己的网络空间. 然后, 一次偶然机会被大哥种草了Hugo这款博客工具, 忙里偷闲, 从年初(2019)开始策划, 后来耽搁了好一阵子, 最后终于在Witton的生日这天上线了.</description>
     </item>
     
   </channel>
