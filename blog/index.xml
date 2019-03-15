@@ -6,9 +6,22 @@
     <description>Recent content on Till The End</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Pan Morg Chu 2019</copyright>
+    <lastBuildDate>Fri, 15 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://MinTTT.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>❤写在最前面❤ 
+ Preface</title>
+      <link>http://MinTTT.github.io/blog/first/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://MinTTT.github.io/blog/first/</guid>
+      <description>❤写在最前面❤ 这是我们两个的blog, 写博客的事情其实在脑海里已经回荡很久了. 本科时代, 遇到技术难题就会上网搜索一下, 经常会被一些技术大牛精美的博客惊艳到, 很是羡慕. 后来组建了iGEM队伍参加了几届, 收获很多, 其中之一就是建立一个wiki去展示队伍的项目, 写wiki的那几晚witton作为主力忙前忙后, 我作为狗头军师也偷学了些技术, 虽然后来我们还是栽在了wiki的内容上(这是后话了, 可以说是 an educational lesson). 后来忙毕业, 升学, 入学, 考试, 实验&amp;hellip;.. 一直没有时间去建立一个属于我们自己的blog. 一次偶然机会被大哥种草了Hugo这款博客工具, 忙里偷闲, 从年初(2019)开始策划, 后来耽搁了好一阵子, 最后终于在Witton的生日🎂这天上线了.
+作为两只不务正业的生物狗🐕, 能在网路上留下一点痕迹, 不胜荣幸.
+To do justly, and to love mercy, and to walk humbly with thy God.</description>
+    </item>
     
   </channel>
 </rss>
