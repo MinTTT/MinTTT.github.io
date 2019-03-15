@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>minimal-academic</title>
+    <title>Till The End</title>
     <link>http://MinTTT.github.io/blog/</link>
-    <description>Recent content on minimal-academic</description>
+    <description>Recent content on Till The End</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; Joshua Hu 2018</copyright>
+    <copyright>&amp;copy; Pan Morg Chu 2019</copyright>
     <lastBuildDate>Thu, 26 Jul 2018 17:44:36 -0700</lastBuildDate>
     
 	<atom:link href="http://MinTTT.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
