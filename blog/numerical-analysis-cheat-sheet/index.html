@@ -45,14 +45,44 @@
   <meta property="og:title" content="Numerical Analysis Cheat Sheet | Till The End">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2019-05-06T00:00:00&#43;00:00">
   
-  
+  <meta property="article:modified_time" content="2019-05-06T00:00:00&#43;00:00">
   
 
   <title>Numerical Analysis Cheat Sheet | Till The End</title>
 
   
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true,
+        processEnvironments: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        TeX: {
+          equationNumbers: { autoNumber: "AMS" },
+          extensions: ["AMSmath.js", "AMSsymbols.js"]
+        }
+      }
+    });
+    MathJax.Hub.Queue(function () {
+      
+      
+      
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
 
+    MathJax.Hub.Config({
+      
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+  </script>
 </head>
 <body>
 
@@ -147,8 +177,8 @@
 
   <span class="post-date">
     
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Jan 1, 0001
+    <time datetime="2019-05-06 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      May 6, 2019
     </time>
   </span>
 
@@ -169,27 +199,27 @@
 <ol>
 <li><p>绝对误差 (absolute error): <code>$e(\hat{x})=\hat{x}-x$</code> , 绝对误差有时候直接称为 误差 (error). 其中 $\hat{x}$ 是准确值 $x$ 对应的近似值.</p></li>
 
-<li><p>相对误差 (relative error): $\displaystyle e<em>{r}(\hat{x})=\frac{\hat{x}-x}{x}=\frac{e(\hat{x})}{x}$ , 有时候也用 $\displaystyle e</em>{r}(\hat{x})=\frac{\hat{x}-x}{\hat{x}}$</p></li>
+<li><p>相对误差 (relative error): <code>$\displaystyle e_{r}(\hat{x})=\frac{\hat{x}-x}{x}=\frac{e(\hat{x})}{x}$</code> , 有时候也用 <code>$\displaystyle e_{r}(\hat{x})=\frac{\hat{x}-x}{\hat{x}}$</code></p></li>
 </ol>
 
 <p>NOTE: 1. 绝对误差可正可负.</p>
 
 <ol>
-<li>误差限: 实际问题中很难知道绝对误差和相对误差的准确值, 所以一般只能估计其范围. 误差限: 误差的绝对值的上限. 绝对误差限: $\varepsilon(\hat{x})$ , 相对误差限: $\varepsilon_{r}(\hat{x})$ . $\varepsilon$ : epsilon.</li>
+<li>误差限: 实际问题中很难知道绝对误差和相对误差的准确值, 所以一般只能估计其范围. 误差限: 误差的绝对值的上限. 绝对误差限: <code>$\varepsilon(\hat{x})$</code>, 相对误差限: <code>$\varepsilon_{r}(\hat{x})$</code> . <code>$\varepsilon$</code> : epsilon.</li>
 </ol>
 
-<p>NOTE: 如果表述为: &ldquo;保留$p$ 位有效数字&rdquo;, 则考虑生成最后一位有效数字时的四舍五入, 如果表述为 &ldquo;有$p$ 位有效数字&rdquo;, 则理解为直接省略 $p$位后的数字. 他们带来的误差限是不同的.</p>
+<p>NOTE: 如果表述为: &ldquo;保留<code>$p$</code>位有效数字&rdquo;, 则考虑生成最后一位有效数字时的四舍五入, 如果表述为 &ldquo;有$p$ 位有效数字&rdquo;, 则理解为直接省略 <code>$p$</code>位后的数字. 他们带来的误差限是不同的.</p>
 
 <blockquote>
-<p>若 $\hat{x} = 3.1415 $ 有 5 位正确的有效数字，则 $x \in [3.1415, 3.1416)$，$\varepsilon(\hat{x}) = 0.0001 $。 保留 $ p $位有效数字的近似值，例：若
- $\hat{x} = 3.1415 $ 保留 5 位有效数字，则$ x \in (3.14155, 3.14165)$，$\varepsilon(\hat{x}) =  0.00005$。</p>
+<p>若 <code>$\hat{x} = 3.1415 $</code> 有 5 位正确的有效数字，则 <code>$x \in [3.1415, 3.1416)$</code>，<code>$\varepsilon(\hat{x}) = 0.0001 $</code>。 保留 <code>$ p $</code>位有效数字的近似值，例：若
+ <code>$\hat{x} = 3.1415 $</code> 保留 5 位有效数字，则<code>$ x \in (3.14155, 3.14165)$</code>，<code>$\varepsilon(\hat{x}) =  0.00005$</code>.</p>
 </blockquote>
 
 <ol>
 <li>数据传递误差与计算误差.</li>
 </ol>
 
-<p>一元函数 $f$，输入值的准确值$ x$，准确结果为$ f(x)$。由于数据误差，实际输入值为 $\hat{x}$，同时计算的函数为 $\hat{f}$。总误差为 $\hat{f}(\hat{x})-f(x)=[\hat{f}(\hat{x})-f(\hat{x})]+[f(\hat{x})-f(x)]$ . 其中第一项 $[\hat{f}(\hat{x})-f(\hat{x})]$ 为计算误差, 第二项 $[f(\hat{x})-f(x)]$为数据传递误差.</p>
+<p>一元函数 <code>$f$</code>，输入值的准确值$ x$，准确结果为$ f(x)$。由于数据误差，实际输入值为 $\hat{x}$，同时计算的函数为 $\hat{f}$。总误差为 $\hat{f}(\hat{x})-f(x)=[\hat{f}(\hat{x})-f(\hat{x})]+[f(\hat{x})-f(x)]$ . 其中第一项 $[\hat{f}(\hat{x})-f(\hat{x})]$ 为计算误差, 第二项 $[f(\hat{x})-f(x)]$为数据传递误差.</p>
 
 <p>计算误差: 计算过程中的近似引起的计算结果的误差;</p>
 
@@ -723,9 +753,7 @@ $$</p></li>
     
 
 
-
+    
     </body>
-    <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>    
     </html>
+
