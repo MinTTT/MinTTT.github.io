@@ -6,19 +6,10 @@
     <description>Recent content on Till The End</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Pan Morg Chu 2019</copyright>
-    <lastBuildDate>Fri, 29 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://MinTTT.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>JC_2019_1</title>
-      <link>http://MinTTT.github.io/blog/jc_1/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://MinTTT.github.io/blog/jc_1/</guid>
-      <description>Jason Huang  Choe, D., Lee, J. H., Yoo, M., Hwang, S., Sung, B. H., Cho, S., &amp;hellip; &amp;amp; Cho, B. K. (2019). Adaptive laboratory evolution of a genome-reduced Escherichia coli. Nature communications, 10(1), 935. pdf link  ZZ Lin  Berhanu, Samuel, Takuya Ueda, and Yutetsu Kuruma. &amp;ldquo;Artificial photosynthetic cell producing energy for protein synthesis.&amp;rdquo; Nature Communications 10.1 (2019): 1325. pdf link  CR Qin  Park, Minhee, et al.</description>
-    </item>
     
     <item>
       <title>❤️写在最前面❤️ 
@@ -30,6 +21,19 @@
       <description>❤️写在最前面❤️ 这是我们两个的blog, 写博客的事情其实在脑海里已经回荡很久了. 本科时代, 遇到技术难题就会上网搜索一下, 经常会被一些技术大牛精美的博客惊艳到, 很是羡慕. 后来组建了iGEM队伍参加了几届, 收获很多, 其中之一就是建立一个wiki去展示队伍的项目, 写wiki的那几晚witton作为主力忙前忙后, 我作为狗头军师也偷学了些技术, 虽然后来我们还是栽在了wiki的内容上(这是后话了, 可以说是 an educational lesson). 后来忙毕业, 升学, 入学, 考试, 实验&amp;hellip;.. 一直没有时间去建立一个属于我们自己的blog. 一次偶然机会被大哥种草了Hugo这款博客工具, 忙里偷闲, 从年初(2019)开始策划, 后来耽搁了好一阵子, 最后终于在Witton的生日🎂这天上线了.
 作为两只不务正业的生物狗🐕, 能在网路上留下一点痕迹, 不胜荣幸.
 To do justly, and to love mercy, and to walk humbly with thy God.</description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis Cheat Sheet</title>
+      <link>http://MinTTT.github.io/blog/numerical-analysis-cheat-sheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://MinTTT.github.io/blog/numerical-analysis-cheat-sheet/</guid>
+      <description>Numerical Analysis Cheat Sheet 1. 数值计算导论  绝对误差 (absolute error): $e(\hat{x})=\hat{x}-x$ , 绝对误差有时候直接称为 误差 (error). 其中 $\hat{x}$ 是准确值 $x$ 对应的近似值.
+ 相对误差 (relative error): $\displaystyle e{r}(\hat{x})=\frac{\hat{x}-x}{x}=\frac{e(\hat{x})}{x}$ , 有时候也用 $\displaystyle e{r}(\hat{x})=\frac{\hat{x}-x}{\hat{x}}$
+  NOTE: 1. 绝对误差可正可负.
+ 误差限: 实际问题中很难知道绝对误差和相对误差的准确值, 所以一般只能估计其范围. 误差限: 误差的绝对值的上限. 绝对误差限: $\varepsilon(\hat{x})$ , 相对误差限: $\varepsilon_{r}(\hat{x})$ . $\varepsilon$ : epsilon.  NOTE: 如果表述为: &amp;ldquo;保留$p$ 位有效数字&amp;rdquo;, 则考虑生成最后一位有效数字时的四舍五入, 如果表述为 &amp;ldquo;有$p$ 位有效数字&amp;rdquo;, 则理解为直接省略 $p$位后的数字. 他们带来的误差限是不同的.
+ 若 $\hat{x} = 3.1415 $ 有 5 位正确的有效数字，则 $x \in [3.</description>
     </item>
     
   </channel>
