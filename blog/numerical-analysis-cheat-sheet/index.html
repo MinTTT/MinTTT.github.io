@@ -167,7 +167,7 @@
 <h3 id="1-数值计算导论">1. 数值计算导论</h3>
 
 <ol>
-<li><p>绝对误差 (absolute error): $e(\hat{x})=\hat{x}-x$ , 绝对误差有时候直接称为 误差 (error). 其中 $\hat{x}$ 是准确值 $x$ 对应的近似值.</p></li>
+<li><p>绝对误差 (absolute error): <code>$e(\hat{x})=\hat{x}-x$</code> , 绝对误差有时候直接称为 误差 (error). 其中 $\hat{x}$ 是准确值 $x$ 对应的近似值.</p></li>
 
 <li><p>相对误差 (relative error): $\displaystyle e<em>{r}(\hat{x})=\frac{\hat{x}-x}{x}=\frac{e(\hat{x})}{x}$ , 有时候也用 $\displaystyle e</em>{r}(\hat{x})=\frac{\hat{x}-x}{\hat{x}}$</p></li>
 </ol>
@@ -414,7 +414,7 @@ x<em>{3}^{(k+1)} &amp;=-\frac{1}{a</em>{33}}(a<em>{31} x</em>{1}^{(k)}&amp;+a<em
 <ul>
 <li><p><em>加权</em>:  $\forall x \in [a,b]$, 权函数$\rho(x) \geq 0$ , 且在$[a,b]$中任一子区间不恒为$0$, 可以定义<em>加权内积 (weighted inner product)</em><br />
 $$
-\displaystyle\lang u(x), v(x) \rang = \int^b_a ! \rho(x) u(x)v(x)dx
+\displaystyle\langle u(x), v(x) \rangle = \int^b_a ! \rho(x) u(x)v(x)dx
 $$</p></li>
 
 <li><p>离散数据: $\displaystyle \langle f,g \rangle _\rho = \sum ^n _{i=0} ! \rho_i f(t_i) g(t_i) $.</p></li>
@@ -723,5 +723,9 @@ $$</p></li>
     
 
 
-  </body>
-</html>
+
+    </body>
+    <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>    
+    </html>
