@@ -17,11 +17,7 @@
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
       <guid>http://MinTTT.github.io/blog/numerical-analysis-cheat-sheet/</guid>
-      <description>Numerical Analysis Cheat Sheet 1. 数值计算导论  绝对误差 (absolute error): $e(\hat{x})=\hat{x}-x$ , 绝对误差有时候直接称为 误差 (error). 其中 $\hat{x}$ 是准确值 $x$ 对应的近似值.
- 相对误差 (relative error): $\displaystyle e_{r}(\hat{x})=\frac{\hat{x}-x}{x}=\frac{e(\hat{x})}{x}$ , 有时候也用 $\displaystyle e_{r}(\hat{x})=\frac{\hat{x}-x}{\hat{x}}$
-  NOTE: 1. 绝对误差可正可负.
- 误差限: 实际问题中很难知道绝对误差和相对误差的准确值, 所以一般只能估计其范围. 误差限: 误差的绝对值的上限. 绝对误差限: $\varepsilon(\hat{x})$, 相对误差限: $\varepsilon_{r}(\hat{x})$ . $\varepsilon$ : epsilon.  NOTE: 如果表述为: &amp;ldquo;保留$p$位有效数字&amp;rdquo;, 则考虑生成最后一位有效数字时的四舍五入, 如果表述为 &amp;ldquo;有$p$ 位有效数字&amp;rdquo;, 则理解为直接省略 $p$位后的数字. 他们带来的误差限是不同的.
- 若 $\hat{x} = 3.1415 $ 有 5 位正确的有效数字，则 $x \in [3.</description>
+      <description>Numerical Analysis Cheat Sheethtml {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:&#34;Lucida Console&#34;,Consolas,&#34;Courier&#34;,monospace; } html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; } body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; } iframe { margin: auto; } a.url { word-break: break-all; } a:active, a:hover { outline: 0px; } .</description>
     </item>
     
     <item>
